@@ -394,6 +394,12 @@ header{
   border-radius: 10px;
   max-width:100%;
 }
+.client-detail{
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin:0;
+}
 
 
 }
