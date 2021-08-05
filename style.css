@@ -211,6 +211,54 @@ header{
   font-size: 1rem;
   color:#233637;
 }
+.client-row{
+  display: flex;
+  padding:4rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  
+  
+}
+.client-detail{
+  display: flex;
+  
+}
+.client-info
+{
+  background-color: white;
+  margin:1rem;
+  border:1px solid transparent;
+  border-radius: 10px;
+  width: 800px;
+}
+.client-text{
+  padding:1rem;
+  font-family: 'Comfortaa', cursive;
+  font-weight: lighter;
+  font-size: 1rem;
+  color:#233637;
+
+}
+.client-detail img{
+ width: 40px;
+ height: 40px;
+ border-radius: 1000px;
+ margin:1rem;
+}
+.name,.designation{
+  margin: 1rem;
+  font-family: 'Comfortaa', cursive;
+  font-weight:bold;
+  font-size: 1rem;
+  color:#233637;
+}
+.designation{
+  margin-top: 0;
+  font-weight: lighter;
+}
+
+
+
 
 
  
@@ -329,6 +377,22 @@ header{
 .counterup{
   flex-direction: column;
   text-align: center;
+  justify-content:space-around;
+}
+.client-row{
+  flex-direction: column;
+  padding:0;
+  
+  
+  
+}
+.client-info
+{
+  background-color: white;
+  margin:1rem;
+  border:1px solid transparent;
+  border-radius: 10px;
+  max-width:100%;
 }
 
 
