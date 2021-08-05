@@ -218,7 +218,7 @@ header{
     
   }
 .left{
-  padding:0rem;
+  padding-left:0rem;
   margin-left:auto;
 
 }
@@ -233,6 +233,7 @@ header{
   font-family: 'Oswald', sans-serif;
   font-size:36px;
   padding-right:0;
+  justify-content: left;
   
   
 }
@@ -240,7 +241,7 @@ header{
   max-width:100%;
   height:auto;
   padding:0;
-  margin-right:0;
+  padding-left: 0;
 
   
 }
@@ -260,6 +261,9 @@ header{
   padding-top: 0rem;
   
 }
+.common-head h2{
+  font-size: 1rem;
+}
 .service-content{
   flex-direction: column-reverse;
 
@@ -277,6 +281,24 @@ header{
   padding-left:0;
   margin-top: 1.5rem;
 }
+.circle{
+  display: flex;
+   width: 32px;
+   height: 32px;
+   border: 1px solid #233637;
+   border-radius: 500px;
+   justify-content:left;
+   align-items:center;
+}
+.number{
+  font-size: 1rem;
+  align-self:center;
+  margin-left: 0.6rem;
+}
+.heading-text{
+  margin-left:0;
+}
+
 
 
 }
