@@ -255,10 +255,9 @@ header{
  
 }
 .common-container{
-  padding:1rem;
   padding:0rem;
   margin-left: auto;
-  padding-top: 0rem;
+
   
 }
 .common-head h2{
@@ -298,7 +297,14 @@ header{
 .heading-text{
   margin-left:0;
 }
+#internetmarket{
+  flex-direction: column;
+}
 
+#internetmarket p{
+  margin-left: 1rem;
+  padding:0;
+}
 
 
 }
