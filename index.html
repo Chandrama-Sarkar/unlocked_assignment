@@ -7,8 +7,8 @@
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/1992ae96f0.js" crossorigin="anonymous"></script>
   <title>unlockedinc</title>
-    <link rel="icon" href="images/logo.png" type="image/icon">
-  
+  <link rel="icon" href="images/logo.png" type="image/icon">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"> </script>
 </head>
 <body>
   <!---NAVIGATION BAR SECTION-->
@@ -98,9 +98,20 @@
        acquire & retain customers more efficiently. Our strategies are driven by ROI, from testing to driving repeat business - we view advertising 
        as a constant journey
        of reaching ideal customers and then building long term relationships between them and your business.
+  
     </p>
     <button class="banner-btn">Book a Call</button>
-    
+    <div class="counterup">
+      <div>
+    <p class="service-heading">Return on ads</p>
+      <p class="counter">550</p>
+      </div>
+     
+    <div>
+      <p class="service-heading">Return on ads</p>
+        <p >$<span class="counter" >4501,000</p>
+      </div>  
+    </div>
   </div>
 </div>
 
@@ -115,7 +126,20 @@
 
  
         
-     
+ 
+  
 
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+ <script src="counterup_min.js"></script>
+ <script>
+  jQuery(document).ready(function( $ )
+  {
+      $('.counter').counterUp({
+        delay: 5,
+        time: 1000
+                             });
+ } );  
+</script>
 </body>
 </html>

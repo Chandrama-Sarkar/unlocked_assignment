@@ -171,7 +171,7 @@ header{
   padding-left:4rem;
   margin-top: 2rem;
 }
-.service-heading{
+.service-heading,.counterup{
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   font-size: 1.5rem;
@@ -191,6 +191,27 @@ header{
   
 
 }
+.counterup{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  
+}
+.counterup .service-heading{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.8rem;
+  color:#233637;
+  
+}
+.counter{
+  font-family: 'Comfortaa', cursive;
+  font-weight: lighter;
+  font-size: 1rem;
+  color:#233637;
+}
+
 
  
 
@@ -304,6 +325,10 @@ header{
 #internetmarket p{
   margin-left: 1rem;
   padding:0;
+}
+.counterup{
+  flex-direction: column;
+  text-align: center;
 }
 
 
