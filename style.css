@@ -101,6 +101,103 @@ header{
   transition: all .3s;
 }
   
+.common-container{
+  padding:1rem;
+  align-items: center;
+  padding:3rem;
+  margin: 3rem;
+  padding-top: 0rem;
+  
+}
+.heading{
+  display: flex;
+  padding:3rem;
+  margin-left: 3rem;
+
+}
+.circle{
+   display: flex;
+    width: 64px;
+    height: 64px;
+    border: 1px solid #233637;
+    border-radius: 1000px;
+    justify-content: center;
+    align-items:center;
+}
+.heading-text{
+  margin:0.5rem;
+}
+.common-head{
+  font-family: 'Comfortaa', cursive;
+  font-weight: lighter;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color:#233637;
+}
+.heading-text h2,.number{
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  color:#233637;
+}
+
+
+/*STYLING THE ACTUAL TIMELINE*/
+
+
+/*SERVICE SECTION*/
+.common-container{
+  align-items: center;
+  padding:3rem;
+  margin: 3rem;
+  padding-top: 1rem;
+  justify-content: center;
+}
+.service-content{
+  display: flex;
+
+  
+}
+
+.service-right img{
+  width: 530px;
+  height: 580px;
+  padding:0;
+  margin-right: 6rem;
+}
+.service-left{
+  margin-left:6rem;
+  padding-right:4rem;
+  padding-left:4rem;
+  margin-top: 2rem;
+}
+.service-heading{
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  color:#233637;
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+
+}
+.service-left p{
+  font-family: 'Comfortaa', cursive;
+  font-weight: lighter;
+  font-size: 1rem;
+  color:#233637;
+  margin-bottom: 1rem;
+  
+  
+  
+
+}
+
+ 
+
+
+
+
+
 
 @media only screen and (max-width: 768px) {
 
@@ -115,13 +212,14 @@ header{
     flex-direction: column;
     margin-left: auto;
     padding-top: 1rem;
+  
     
   
     
   }
 .left{
   padding:0rem;
-  margin-left: 0rem;
+  margin-left:auto;
 
 }
 .left h1, h4 {
@@ -154,6 +252,30 @@ header{
   margin: 8px 0;
   width:100%;
  
+}
+.common-container{
+  padding:1rem;
+  padding:0rem;
+  margin-left: auto;
+  padding-top: 0rem;
+  
+}
+.service-content{
+  flex-direction: column-reverse;
+
+  
+}
+.service-right img{
+  max-width:100%;
+  height:auto;
+  padding:0;
+  margin-right:0;
+}
+.service-left{
+  margin-left:auto;
+  padding-right:0;
+  padding-left:0;
+  margin-top: 1.5rem;
 }
 
 
