@@ -111,9 +111,12 @@ h1{
     padding-right:0;
 
 }
+#about-image{
+    width:300px;
+}
 
 #about-img{
-   min-width:100%;
+   max-width:100%;
     height:auto;
     padding:1rem;
 }
