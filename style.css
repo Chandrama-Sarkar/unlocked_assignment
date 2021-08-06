@@ -257,7 +257,57 @@ header{
   font-weight: lighter;
 }
 
+/*GET IN TOUCH FORM*/
 
+.form-container{
+  height: 400px;
+  width:400px;
+  align-items: center;
+  margin: 0 auto;
+  
+}
+
+.form-head{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size:3rem;
+  color:#233637;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.form-label{
+  font-family: 'Comfortaa', cursive;
+  font-weight:lighter;
+  font-size: 1rem;
+  color:#233637;
+  border:transparent;
+
+}
+.form-control{
+    font-family: 'Comfortaa', cursive;
+    font-weight:lighter;
+    font-size: 1rem;
+    color:#233637;
+    padding: 1rem;
+    outline: 0;
+    border: none;
+    background-color: #d5f5f7;
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: inset 1px 1px 4px rgb(0 0 0 / 20%);
+  
+}
+textarea{
+  resize: none;
+  height:180px;
+}
+#contact-button{
+  padding:0.8rem 1rem;
+ margin-left:7rem;
+  
+}
 
 
 
@@ -400,6 +450,23 @@ header{
   align-items: center;
   margin:0;
 }
-
+textarea{
+  resize: none;
+  height:180px;
+}
+#contact-button{
+  padding:0.8rem 1rem;
+ margin-left:0;
+  
+}
+.form-head{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size:1.8rem;
+  color:#233637;
+  margin-bottom: 1rem;
+  text-align: center;
+}
 
 }
