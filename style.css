@@ -34,6 +34,7 @@ header{
   align-items: center;
   margin-right: 12rem;
   margin-left: 12rem;
+  padding-top: 1rem;
   
 }
 .logo{
@@ -72,7 +73,8 @@ header{
 .left h4{
   text-transform: uppercase;
   font-family: 'Comfortaa', cursive;
-  font-weight: lighter ;
+  font-weight: lighter;
+  font-size: 1rem;
 }
 .left p{
   font-family: 'Comfortaa', cursive;
@@ -99,6 +101,9 @@ header{
   color: #fff;
   cursor: pointer;
   transition: all .3s;
+}
+.banner-btn:hover{
+  background-color: #2b8d92;
 }
   
 .common-container{
@@ -260,7 +265,7 @@ header{
 /*GET IN TOUCH FORM*/
 
 .form-container{
-  height: 400px;
+  height:640px;
   width:400px;
   align-items: center;
   margin: 0 auto;
@@ -308,6 +313,29 @@ textarea{
  margin-left:7rem;
   
 }
+footer{
+  height:80px;
+  align-items: center;
+  justify-content:center;
+  font-family: 'Comfortaa', cursive;
+  font-weight:lighter;
+  font-size: 1rem;
+  color:#233637;
+  padding:1rem;
+  margin: 1rem;
+  text-align:center;
+}
+.section-row{
+  display: flex;
+}
+.section-row .links a{
+padding-right:1rem;
+}
+.section-row i{
+  font-size: 2rem;
+  padding-right: 1rem;
+}
+
 
 
 
@@ -474,6 +502,26 @@ form{
   text-align: center;
   
 }
+footer{
+  height:auto;
+  
+  font-size: 1rem;
+  color:#233637;
+  padding:1rem;
+  margin: 1rem;
+  text-align:center;
+}
+.section-row{
+  flex-direction: column;
+}
+.section-row .links a{
+  padding-right:1rem;
+  }
+  .section-row i{
+    font-size: 1.5rem;
+    padding-right:1rem;
+    padding-top: 1rem;
+  }
 
 
 }
