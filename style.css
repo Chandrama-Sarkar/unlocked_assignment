@@ -70,6 +70,7 @@ header{
   font-family: 'Oswald', sans-serif;
   font-size: 3rem;
   padding-right:3rem;
+  font-weight: bold;
   
 }
 .left h4{
@@ -135,6 +136,8 @@ header{
 }
 .heading-text{
   margin:0.5rem;
+  margin-top:0;
+  
 }
 .common-head{
   font-family: 'Comfortaa', cursive;
@@ -142,12 +145,16 @@ header{
   font-size: 1rem;
   text-transform: uppercase;
   color:#233637;
+  margin-bottom: 0;
+  
 }
 .heading-text h2,.number{
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   font-size: 2rem;
   color:#233637;
+  font-weight: bold;
+  
 }
 
 
@@ -187,6 +194,8 @@ header{
   color:#233637;
   margin-bottom: 1rem;
   margin-top: 4rem;
+  font-weight: bold;
+  
 
 }
 .service-left p{
@@ -417,6 +426,7 @@ padding-right:1rem;
 }
 .service-content{
   flex-direction: column-reverse;
+  padding-left: 1rem;
 
   
 }
@@ -477,13 +487,16 @@ padding-right:1rem;
   
   
 }
+.client-container{
+  padding-left: 1rem;
+}
 .client-info
 {
   background-color: white;
-  margin:1rem;
   border:1px solid transparent;
   border-radius: 10px;
   max-width:100%;
+  
 }
 .client-detail{
   flex-direction: column;
@@ -499,6 +512,28 @@ textarea{
   padding:0.8rem 1rem;
  margin-left:0;
   
+}
+.form-container{
+  height:auto;
+  max-width:100%;
+  align-items: center;
+  margin: 0 auto;
+  
+}
+.form-control{
+  font-family: 'Comfortaa', cursive;
+  font-weight:lighter;
+  font-size: 1rem;
+  color:#233637;
+  padding: 1rem;
+  outline: 0;
+  border: none;
+  background-color: #d5f5f7;
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: inset 1px 1px 4px rgb(0 0 0 / 20%);
+
 }
 form{
   align-items: center;
