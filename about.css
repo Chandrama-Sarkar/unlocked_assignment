@@ -95,16 +95,16 @@ h1{
 }
 
 #about-img{
-   max-width:100%;
+   max-width:300;
     height:auto;
     padding:1rem;
 }
 .exist-info{
-    width:400px;
+    width:300px;
 
 }
 .about-info p{
-    width:380px;
+    width:300px;
 }
 .exist-info,.exist-info p{
     color: #2a4344;
